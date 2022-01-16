@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const NewsItemBlock = styled.div`
-  display: flex;
+  display: block;
   .thumbnail {
     margin-right: 1rem;
     img {
@@ -27,7 +27,7 @@ const NewsItemBlock = styled.div`
     }
   }
   & + & {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 `;
 

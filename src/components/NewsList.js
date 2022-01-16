@@ -4,13 +4,13 @@ import NewsItem from './NewsItem';
 import axios from 'axios';
 
 const NewsListBlock = styled.div`
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding-bottom: 3rem;
   width: 768px;
   margin: 0 auto;
   margin-top: 2rem;
   @media screen and (max-width: 768px) {
-    width: 80%;
+    width: 10%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
