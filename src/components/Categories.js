@@ -54,6 +54,18 @@ const Category = styled(NavLink)`
   &:hover {
     color: #495057;
   }
+  &.active {
+      font-weight : 600;
+      border-bottom : 2px solid #22b8cf;
+      color: #22b8cf;
+&:hover{
+    color : #3bc9db;
+ }
+}
+
+
+
+  }
   & + & {
     margin-left: 1rem;
   }

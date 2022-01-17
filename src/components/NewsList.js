@@ -36,7 +36,7 @@ const NewsList = ({ category }) => {
       setLoading(false);
     };
     apiData();
-  }, [category]);
+  }, [category]); // category값이 변할 때 마다 새로 불러와야하기 때문에 category 추가
   // 대기
   if (loading) {
     return <NewsListBlock>잠시만 대기 부탁드립니다.</NewsListBlock>;
