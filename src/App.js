@@ -2,7 +2,7 @@ import React from 'react';
 //import Categories from './components/Categories';
 //import NewsList from './components/NewsList';
 import NewsPage from './pages/Newspage';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <Routes>
